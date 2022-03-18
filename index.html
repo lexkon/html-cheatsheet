@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">  
+    <title>HTML Tables Cheatsheet</title>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Tables</h1>
+        <h2>Cheatsheet</h2>
+    </div>
+    
+    <div class="container">
+        <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+        <p>HTML tables are created using the <span class="tag">&lt;table&gt;</span> tag in which the <tr> tag is used to create table rows and <span class="tag">&lt;td&gt;</span> tag is used to create data cells. The elements under <span class="tag">&lt;td&gt;</span> are regular and left aligned by default</p>
+    </div>
+
+    <div class="container" id="table-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>Elements & Attributes</th>
+                    <th>HTML</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table</td>
+                    <td class="tag">&lt;table&gt;</td>
+                    <td>Defines the table and will contain rows and columns</td>
+                </tr>
+                <tr>
+                    <td>Table Head</td>
+                    <td class="tag">&lt;thead&gt;</td>
+                    <td>Defines the headings of table columns</td>
+                </tr>
+                <tr>
+                    <td>Table Body</td>
+                    <td class="tag">&lt;tbody&gt;</td>
+                    <td>A semantic element that contains all the table data not contained in the table's heading and footer.</td>
+                </tr>
+                <tr>
+                    <td>Table Footer</td>
+                    <td class="tag">&lt;tfoot&gt;</td>
+                    <td>Defines the footer of the table and uses table rows for summarising content.</td>
+                </tr>
+                <tr>
+                    <td>Table Row</td>
+                    <td class="tag">&lt;tr&gt;</td>
+                    <td>Used to add rows to a table before adding the data and headings</td>
+                </tr>
+                <tr>
+                    <td>Table Heading</td>
+                    <td class="tag">&lt;th&gt;</td>
+                    <td>Adds titles to rows and columns, and must be enclosed in a table row <span class="tag">&lt;tr&gt;</span> element</td>
+                </tr>
+                <tr>
+                    <td>Table Data</td>
+                    <td class="tag">&lt;td&gt;</td>
+                    <td>Defines individuals data cells of a table and must be nested in a table row <span class="tag">&lt;tr&gt;</span> element</td>
+                </tr>
+                <tr>
+                    <td><span class="tag">rowspan</span> Attribute</td>
+                    <td class="tag">&lt;rowspan&gt;</td>
+                    <td>Defines the number of rows that a cell can span across the table when applied to a <span class="tag">th</span> or <span class="tag">td</span> element. The value is 1 by default and can be any positive integer.</td>
+                </tr>
+                <tr>
+                    <td><span class="tag">colspan</span> Attribute</td>
+                    <td class="tag">&lt;colspan&gt;</td>
+                    <td>Defines the number of columns that a cell can span across the table when applied to a <span class="tag">th</span> or <span class="tag">td</span> element. The value is 1 by default and can be any positive integer</td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+    
+</body>
+</html>
